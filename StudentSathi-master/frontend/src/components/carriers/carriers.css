@@ -1,0 +1,42 @@
+#filterRole{
+  text-align:center;
+  margin:2%;
+}
+#filterRole span{
+  color:#1425e5;
+  font-size:20px;
+}
+.showRole {
+    display: grid;
+    grid-template-columns:35% 35% 35%;
+    margin-top:3%;
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom:5%;      
+    gap: 10px;
+  }
+  
+  
+    .showRole  .green{
+    background-color:black;
+    
+  }
+  
+  .showRole .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+    text-align: center;
+    height: 8vh;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+   
+    transition: 400ms;
+  }  
+  .showRole .card:hover {
+    transform: scale(1.2, 1.2);   
+  }
+  
+ 

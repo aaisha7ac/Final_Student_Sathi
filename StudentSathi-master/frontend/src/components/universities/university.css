@@ -1,0 +1,10 @@
+#unifilter{
+    text-align: center;
+}
+#unifilter div{
+    display: inline;
+    margin:10vh;
+}
+#unifilter div span{
+    margin:1vh;
+}

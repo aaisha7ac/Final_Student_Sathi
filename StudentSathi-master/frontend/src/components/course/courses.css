@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin:0;padding:0;
+  box-sizing:border-box;
+  outline:none;border:none;
+  text-decoration:none;
+  text-transform:capitalize;
+  transition:.2s linear;
+}
+
+#heading{
+    text-align:center;
+    padding-bottom:15px;
+    color:#fff;
+    text-shadow:0 5px 10px rgba(0,0,0,.2);
+    font-size:50px;
+}
+#container{
+    padding-top:35px;
+    background-color: white;  
+    width:100%;    
+    display:flex;
+    justify-content:center;       
+    gap:20px;
+    flex-wrap:wrap;
+    
+}
+#container .box{
+position:relative;
+width:400px;    
+box-shadow:0 5px 10px rgba(24, 24, 210, 0.8);
+border:0.5px solid black;
+border-radius:5px;
+background:#47427a;
+text-align:center;
+overflow:hidden;
+margin:20px;
+padding:20px;
+}
+#container .box:hover{
+    box-shadow:5px 15px 30px rgba(0,0,0,.4);
+
+}
+.h2course{
+color:white;
+font-size:20px;
+margin:4px;
+margin-bottom:10px;
+}
+.pcourse{
+    color:#c8c8cf;
+}
+
+.diva{
+    position:relative;
+    top:10%;    
+        
+    
+}
+.acourses{
+    display:inline-block; 
+    background-color:rgba(238, 229, 229, 0.7);     
+    padding:10px 30px;  
+    transition-duration: 0.1s;   
+    cursor:pointer;
+    color:black;
+  }
+  
+  .acourses:hover {
+    background-color: #0e0f0e; /* Green */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+    color: white;
+  }
+
